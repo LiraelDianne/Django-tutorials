@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!--New line -->
+
+<html>
+    <head>
+        <title>Rango</title>
+    </head>
+    <body>
+        <h1>Rango says...</h1>
+        this is the about page! <strong>{{ boldmessage }}</strong><br />
+        <a href="/rango/about/">About</a><br />
+        <img src="{% static 'moon_nearside.jpg' %}" alt="It's the MOON!" /> <!-- New line -->
+    </body>
+
+</html>
